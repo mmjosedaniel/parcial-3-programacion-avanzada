@@ -12,7 +12,6 @@ import java.util.Locale;
 
 @Configuration // Indica que esta clase contiene configuraciones de Spring.
 public class LocaleConfig implements WebMvcConfigurer { // Implementa WebMvcConfigurer para añadir interceptores
-
     /**
      * Se define el LocaleResolver que se encargará de gestionar la configuración del idioma.
      * En este caso, estoy usando SessionLocaleResolver para guardar el locale en la sesión del usuario.
